@@ -1,0 +1,36 @@
+.join-us{
+    background-color: #fbddff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.title-join{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;   
+    font-size: 1.8rem;
+    color: #4b0055;
+    font-weight: bolder;
+    margin-top: 2rem; 
+   
+}
+
+.paragraph-join{
+    color: #bd83c4;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 500;
+}
+
+.button-join{
+    background-color: #521B58;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 80px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 80px;  
+}

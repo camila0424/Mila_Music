@@ -1,0 +1,103 @@
+.detailTeacher{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-family:"Arsenal SC", sans-serif;
+    margin-left: 10%;
+    margin-right: 30%;
+    gap: 2rem;
+   
+}
+
+.detail_photo_teacher{
+   height: 100px;
+   margin-top: 20px;
+}
+
+.detail_name_teacher{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #521B58;
+}
+
+.detail_ad_title{
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 50px;
+    width: 600px;
+}
+
+.detail_ad_description{
+    margin-bottom: 20px; 
+    text-align: justify;
+    margin-right: 50px; 
+    width: 600px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.detail_see_more_teacher_item {
+    text-decoration: none;
+    color: black;
+    font-size: bolder;
+    font-weight: 600;
+    text-align: justify;
+    margin-right: 50px;
+    
+}
+
+.detail_about_teacher{
+    margin-top: 60px;
+    color: #521B58;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-right: 50px;
+    
+}
+
+.detail_class_description{
+    margin-bottom: 60px;
+    width: 600px;
+    text-align: justify;
+    margin-right: 50px;
+    
+}
+
+
+//--------------------------boton volver detail
+
+
+.detail_return_btn{
+    background-color: #521B58;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    left:50px;
+    
+}
+
+.detail_contact_btn{
+    background-color: white;
+    color: #521B58;
+    border: solid 2px #521B58;
+    text-decoration: none;
+    padding: 8px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 110px;
+    left:50px;
+   
+
+}
+
+

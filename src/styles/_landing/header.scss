@@ -1,0 +1,238 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    position: relative;
+    z-index: 100;
+   }
+.logo{
+    margin-top: 10px;
+    text-align: center;   
+}
+
+.menu_general {
+    display: none;
+}
+//-----------menu hamburguesa--------------------------------
+.hamburguesa {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #570e6a;
+  padding: 10px;
+  width: fit-content;
+  margin-left: 15px;
+  appearance: none;
+  border: none;
+  background-color: white;
+  position: relative; 
+  z-index: 1001;
+}
+
+.menu_ham.collapsed {
+  display: none;
+}
+
+.menu_ham{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    font-size: 2rem;
+    color: rgb(87, 14, 106);
+    margin-right: 10px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    max-width: 100px;
+    list-style: none;
+    appearance: none;
+    background: white;
+    background-color: transparent;
+    gap: 8px;
+    min-width: 400px;
+    z-index: 1000;
+}
+
+.menu_ham:not(.collapsed){
+  display: flex;
+  background-color: white;
+}
+
+.menu_ham a{
+  text-decoration: none;
+}
+
+.menu_ham a:hover{
+  background-color: #F7E7FF;
+  color: #4b0055;
+}
+
+.menu_ham_log-in-btn{
+  background-color: #F7E7FF ;
+  font-family: "Arsenal SC", sans-serif;
+  font-size: 1rem;
+  color: #4b0055;
+  font-weight: bolder;
+  text-align: center; 
+  min-width: 400px;
+  padding: 15px 80px;
+}
+
+.menu_ham_sign-up-btn{
+  color:white;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #4b0055;
+  min-width: 400px;
+  text-align: center;
+  padding: 15px 80px; 
+}
+
+.other-class{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.menu_ham_find{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.menu_ham_sub-find{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  margin-left: 30px;
+}  
+
+.menu_ham_find-benefit{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+@media  (width > 768px) {
+   
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px 10px;
+      }
+    
+    .menu_ham {
+        display: none;
+    }
+    .hamburguesa {
+        display: none;
+    }
+   
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        max-width: 120px;
+        margin-right: 100px;
+     }
+    
+
+    .menu_general {
+        display: contents; 
+     }
+      
+      .menu_general nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+     }
+      
+      .menu_general a {
+        font-size: 1rem; 
+        color: rgb(87, 14, 106);
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+        white-space: nowrap;
+        margin-top: 4.3rem;
+        font-family: "Arsenal SC", sans-serif;
+
+      }
+      
+      .menu_general a:hover {
+        background-color:rgb(211, 177, 220)
+      }
+    
+}  
+
+@media (width > 1280px) {
+    //inicio header
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        max-width: 150px;
+        margin-right: 100px;
+     }
+        
+    header {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px   30px;
+        font-size: 1rem;
+        font-family: "Arsenal SC", sans-serif;
+
+      }
+    
+       
+    .menu_ham.collapsed{
+      display: none;
+    }
+    
+    .hamburguesa {
+        display: none;
+    }
+   
+   
+    .menu_general {
+        display: flex; 
+        justify-content: space-between;
+        
+     }
+      
+      .menu_general nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 16px;
+     }
+      
+      .menu_general a {
+        color: rgb(87, 14, 106);
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+        white-space: nowrap;
+        margin-top: 4.5rem;
+      }
+      
+      .menu_general a:hover {
+        background-color: rgb(211, 177, 220);
+      }
+} 
+   

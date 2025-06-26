@@ -1,0 +1,134 @@
+.how-it-works-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #fbddff;
+  
+}
+
+.container-purple{
+    text-align: center;
+    background-color: #521B58;
+    padding: 15px 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.easy-tittle{
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.easy{
+    color: #e57ef1;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.how-it-works-list{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.how-it-works-list li {
+  display: flex;         
+  align-items: flex-start;  
+  gap: 20px; 
+}
+
+
+.number-how-it{
+    background-color: rgb(180, 180, 33);
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border-radius: 90px; 
+}
+
+.tittle-functions{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;   
+    font-size: 1.8rem;
+    color: #4b0055;
+    font-weight: bolder;
+    text-align: left; 
+    margin-bottom: 1rem;
+
+}
+.description-functions{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.2rem;
+    color: #880097;
+    font-weight: regular;
+    text-align: left; 
+    margin-top: 1rem; 
+    margin-bottom: 0.5rem;
+}
+
+.ok{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom:  2rem;
+}
+
+.imag-ok{
+    width: 5.5rem;
+    height: auto;
+}
+
+.thinking-of-you{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.5rem;
+    color:#550260;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    font-weight: 750;
+}
+
+.paragraph-thinking{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.4rem;
+    color: #880097;
+    font-weight: regular;
+    text-align: center; 
+    margin-bottom: 2rem;
+    font-weight: 550;
+}
+
+@media  (width > 768px){
+    .how-it-works-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    margin-right:15% ;
+}
+}
+@media (width > 1280px){
+    .how-it-works-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    margin-right:15% ;
+}
+}

@@ -1,0 +1,88 @@
+.instruments-container_landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.tittle-instruments_landing{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;   
+    font-size: 2rem;
+    color: #4b0055;
+    font-weight: bolder;
+    text-align: center; 
+    margin-top: 1rem; 
+    margin-bottom: 2.5rem;
+}
+
+.instruments-list_landing{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+.instruments-list_landing li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    gap: 30px;
+     
+}
+
+.icon-instrument_landing img{
+    width: 3rem;
+    height: auto;
+    margin-right: 30px;
+}
+
+.subject-instrument_landing{
+    color: #521B58;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+}
+
+.teachers-instruments_landing{
+    color: #bd83c4;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+}
+.ver-mas_landing{
+    background-color: #521B58;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 80px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media  (width > 768px){
+    .instruments-list_landing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    }
+}
+
+@media (width > 1280px){
+    .instruments-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    list-style: none;
+    padding: 0;
+    }
+}

@@ -1,0 +1,50 @@
+@use './core/reset';
+@use './_landing/header';
+@use './_landing/hero';
+@use './_landing/instruments';
+/*
+@use './_landing/beneficios';
+@use './_landing/como_funciona';
+@use './_landing/testimonios.scss';
+@use './_landing/unete.scss';
+@use './_landing/footer.scss';
+@use './_listing_teachers/_header.scss';
+@use './_listing_teachers/_sub_header.scss';
+@use './_listing_teachers/_teacher_list.scss';
+@use './_listing_teachers/teacher_detail';
+@use './_listing_teachers/contact_teachers'; */
+
+
+
+$font_text: "Arsenal SC", sans-serif;
+$font_title1: "Arsenal SC", sans-serif;
+$fontsize_title: 1.5rem;
+$fontsize_text: 1.125rem;
+
+.root {
+    font-family: $font_text;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+  all: unset;
+  cursor: pointer;
+}
+.text {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title_1 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title_2 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
