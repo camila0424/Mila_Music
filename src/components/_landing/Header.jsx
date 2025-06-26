@@ -1,13 +1,32 @@
+import Logo from "/images/logo/logo__final.png";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const [menuClass, setMenuClass] = useState("collapsed");
+
+  const handleClick = () => {
+    setMenuClass(menuClass === "collapsed" ? "" : "collapsed");
+  };
+  useEffect(() => {
+    document.body.addEventListener("click", (ev) => {
+      console.log(ev);
+
+      if (!ev.target.classList.contains("hamburguesa")) {
+        setMenuClass("collapsed");
+      }
+    });
+  }, []);
+
   return (
     <header>
       {/*  <!-- Botón hamburguesa --> */}
-      <button className="hamburguesa js_hamburguer ">&#9776;</button>
+      <button className="hamburguesa js_hamburguer " onClick={handleClick}>
+        &#9776;
+      </button>
 
       {/*  <!-- Menú personalizado --> */}
-      <section className="menu_ham js_menu_ham collapsed" id="menu">
+      <section className={"menu_ham js_menu_ham " + menuClass} id="menu">
         <Link className="menu_ham_log-in-btn" to="#">
           Inicia sesión
         </Link>
@@ -22,7 +41,7 @@ function Header() {
           <Link className="menu_ham_sub-find" to="#">
             Solfeo
           </Link>
-          <Link className="menu_ham_sub-find" to="#">
+          <Link className="menu_ham_sub-find" to="/teacher-list">
             Guitarra Eléctrica
           </Link>
         </section>
@@ -44,18 +63,14 @@ function Header() {
       </section>
 
       <div className="logo">
-        <Link to="#">
-          <img
-            src="../../../images/logo/logo_final.png"
-            height="100px"
-            alt="Esta es la imagen del logo"
-          />
+        <Link to="/">
+          <img src={Logo} height="100px" alt="Esta es la imagen del logo" />
         </Link>
       </div>
       <div className="menu_general">
         <nav className="menu_cent">
           <Link to="#como-funciona">¿Cómo funciona?</Link>
-          <Link to="#encuentra-tu-profe">Encuentra tu profe</Link>
+          <Link to="/teacher-list">Encuentra tu profe</Link>
         </nav>
         <nav className="menu_der">
           <Link to="#iniciar-sesion">Inicia sesión</Link>

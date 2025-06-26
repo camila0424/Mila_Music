@@ -8,7 +8,7 @@ function Hero() {
         desde cualquier parte del mundo
       </h1>
       <form className="form_landing">
-        <Link className="toolBtn buscar-instrumentos" to="x">
+        <Link className="toolBtn buscar-instrumentos" to="/teacher-list">
           ¿Qué quieres aprender?<i className="fa-solid fa-magnifying-glass"></i>
         </Link>
       </form>

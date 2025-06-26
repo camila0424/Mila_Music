@@ -48,7 +48,7 @@ function Instruments() {
           </div>
         </li>
       </ul>
-      <Link className="ver-mas_landing" to="x">
+      <Link className="ver-mas_landing" to="/teacher-list">
         Ver más instrumentos
       </Link>
     </section>
