@@ -5,7 +5,7 @@ import twitter from "../../../public/images/_landing/redes-sociales/twitter.png"
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="page-footer">
       <section className="line">
         <h3>Nuestra empresa</h3>
         <ul>

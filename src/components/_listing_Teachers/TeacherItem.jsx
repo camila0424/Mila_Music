@@ -12,7 +12,7 @@ function TeacherItem({ teacherToShow }) {
       </span>
       <span>
         <h3 className="name_teacher_card">{teacherToShow.name}</h3>
-        <p>{teacherToShow.number_of_classes}</p>
+        <p>{teacherToShow.number_of_classes + "clases raras"}</p>
         <h4 className="instrumet_to_teach_card">{teacherToShow.instrument}</h4>
         <p>Habla {teacherToShow.language}</p>
         <p className="ad_title_card">{teacherToShow.ad_title}</p>
