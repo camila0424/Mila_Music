@@ -26,6 +26,7 @@ function Header() {
       </button>
 
       {/*  <!-- Menú personalizado --> */}
+
       <section className={"menu_ham js_menu_ham " + menuClass} id="menu">
         <Link className="menu_ham_log-in-btn" to="#">
           Inicia sesión
@@ -35,14 +36,14 @@ function Header() {
         </Link>
         <Link className="menu_ham_find">Busca clases</Link>
         <section className="other-class">
-          <Link className="menu_ham_sub-find" to="#">
-            Repaso Escolar
-          </Link>
-          <Link className="menu_ham_sub-find" to="#">
-            Solfeo
+          <Link className="menu_ham_sub-find" to="/teacher-list">
+            Piano
           </Link>
           <Link className="menu_ham_sub-find" to="/teacher-list">
-            Guitarra Eléctrica
+            Canto
+          </Link>
+          <Link className="menu_ham_sub-find" to="/teacher-list">
+            Guitarra
           </Link>
         </section>
         <Link className="menu_ham_find" to="#">

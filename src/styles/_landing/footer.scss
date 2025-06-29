@@ -23,7 +23,11 @@ ul{
 
 li {
   margin: 0.8rem 0; 
-}      
+  
+}    
+.line li :hover{
+  background-color:rgb(211, 177, 220)
+}  
 
 .line{
     border-bottom: 2px solid white;
@@ -46,6 +50,11 @@ li {
 
 .social img{
   width: 4rem;
+}
+
+.social :hover{
+  background-color:rgb(211, 177, 220)
+  
 }
 
 @media  (width > 768px){

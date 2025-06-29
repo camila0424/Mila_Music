@@ -64,14 +64,19 @@ function ContactTeacher({ allTeachers }) {
           placeholder="Móvil"
           className="text_contact_teacher "
         />
-        <button type="submit" className="submit_btn_contact_teacher">
-          Enviar
-        </button>
-      </form>
 
-      <Link className="return_btn_contact_teacher" to="/">
-        Volver
-      </Link>
+        <div className="button_form_row">
+          <button type="submit" className="submit_btn_contact_teacher">
+            Enviar
+          </button>
+
+          <div className="button_sticky_container">
+            <Link to="/" className="return_btn_contact_teacher">
+              Volver
+            </Link>
+          </div>
+        </div>
+      </form>
     </>
   );
 }

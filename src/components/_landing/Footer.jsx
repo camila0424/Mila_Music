@@ -28,7 +28,7 @@ function Footer() {
             <Link to="/dar-clases">Dar clases online</Link>
           </li>
           <li>
-            <Link to="/recibir-clases">Recibir clases online</Link>
+            <Link to="/teacher-list">Recibir clases online</Link>
           </li>
           <li>
             <Link to="/blog">Blog</Link>
@@ -52,7 +52,7 @@ function Footer() {
           <img src={facebook} alt="icono de Facebook" />
         </a>
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/mila_musikclass/?igsh=MTdoMDQ2bXE5MHp4eg%3D%3D#"
           target="_blank"
           rel="noopener noreferrer"
         >

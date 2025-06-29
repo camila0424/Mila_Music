@@ -6,6 +6,7 @@
     margin-left: 10%;
     margin-right: 30%;
     margin-bottom: 10%;
+    min-height: 100vh;
     
 }
 
@@ -29,31 +30,44 @@
     font-size: 1rem;
 }
 
+.button_form_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  position: relative;
+}
+
+.button_sticky_container {
+  position: relative;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 .return_btn_contact_teacher{
     background-color: #521B58;
     color: white;
     text-decoration: none;
     padding: 8px;
     width: 150px;
-    height: 25px;
+    height: 26px;
     border-radius: 5px;
     text-align: center;
-    position: fixed;
-    bottom: 75px;
-    right:40px;
+    position: sticky;
+    right:30px;
     font-family:"Arsenal SC", sans-serif;
+    float: right;
+    z-index: 10;
 }
 
-.submit_btn_contact_teacher{
-    background-color: #521B58;
-    color: white;
-    font-family:"Arsenal SC", sans-serif;
-    text-align: justify;
-    font-size: 1rem;
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    bottom: 60px;
-    margin-top: 50px;
+.submit_btn_contact_teacher {
+  background-color: #521B58;
+  color: white;
+  font-family: "Arsenal SC", sans-serif;
+  font-size: 1rem;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  
 }

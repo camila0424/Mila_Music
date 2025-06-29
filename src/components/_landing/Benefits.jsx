@@ -38,7 +38,7 @@ function Benefits() {
           Clases económicas: sin matrícula, mínimo de horas, deslpazamientos.
         </p>
       </article>
-      <Link className="reserva_btn" href="x">
+      <Link className="reserva_btn" to="/teacher-list">
         Reserva tu prueba gratuita
       </Link>
     </section>

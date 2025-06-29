@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import TeacherItem from "./TeacherItem";
 
 function ListingTeachers({ allTeachers }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!Array.isArray(allTeachers)) {
     return <p>Cargando profesores...</p>;
   }
