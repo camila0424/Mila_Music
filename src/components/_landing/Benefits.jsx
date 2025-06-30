@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import calendario from "../../../public/images/_landing/beneficios/calendario.png";
-import bolsaDinero from "../../../public/images/_landing/beneficios/bolsa-dinero.png";
-import meet from "../../../public/images/_landing/beneficios/meet.png";
-import videoCall from "../../../public/images/_landing/beneficios/video-call.png";
+import calendario from "../../images/_landing/beneficios/calendario.png";
+import bolsaDinero from "../../images/_landing/beneficios/bolsa-dinero.png";
+import meet from "../../images/_landing/beneficios/meet.png";
+import videoCall from "../../images/_landing/beneficios/video-call.png";
 function Benefits() {
   return (
     <section className="benefits_container">

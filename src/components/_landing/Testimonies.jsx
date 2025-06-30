@@ -1,4 +1,4 @@
-import lina from "../../../public/images/_landing/testimonios/lina.jpg";
+import lina from "../../images/_landing/testimonios/lina.jpg";
 function Testimonies() {
   return (
     <>

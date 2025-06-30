@@ -29,7 +29,7 @@ function App() {
       teacher.instrument.toLowerCase().includes(filterInstrument.toLowerCase())
   );
   useEffect(() => {
-    fetch("/data/data.json")
+    fetch("./data/data.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Datos cargados:", data);
