@@ -1,7 +1,7 @@
 [{  
     "id":"1",
     "name": "Helena B.",
-    "photo": "/images/listing_teachers/profesores/Helena.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Helena.png",
     "number_of_classes": "11 ",
     "instrument":"Guitarra",
     "language":"Español",
@@ -14,7 +14,7 @@
 {
     "id":"2",
     "name": "Hector R.",
-    "photo": "/images/listing_teachers/profesores/Hector.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Hector.png",
     "number_of_classes": "22 ",
     "instrument":"Guitarra",
     "language":"Español",
@@ -27,7 +27,7 @@
 {
     "id":"3",
     "name": "Roberto M.",
-    "photo": "/images/listing_teachers/profesores/Roberto.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Roberto.png",
     "number_of_classes": "15 ",
     "instrument":"Guitarra",
     "language":"Español, English",
@@ -39,7 +39,7 @@
 {
     "id":"4",
     "name": "Victor S.",
-    "photo": "/images/listing_teachers/profesores/Victor.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Victor.png",
     "number_of_classes": "22 ",
     "instrument":"Trompeta",
     "language":"Español",
@@ -51,7 +51,7 @@
 {
     "id":"5",
     "name": "Victoria S.",
-    "photo": "/images/listing_teachers/profesores/Victoria.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Victoria.png",
     "number_of_classes": "8 ",
     "instrument":"Clarinete",
     "language":"Español, Francés",
@@ -63,7 +63,7 @@
 {
     "id":"6",
     "name": "Ricardo A.",
-    "photo": "/images/listing_teachers/profesores/Ricardo.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Ricardo.png",
     "number_of_classes": "32 ",
     "instrument":"Guitarra",
     "language":"Español",
@@ -75,7 +75,7 @@
 {
     "id":"7",
     "name": "Camilo S.",
-    "photo": "/images/listing_teachers/profesores/Camilo.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Camilo.png",
     "number_of_classes": "20 ",
     "instrument":"Saxofón",
     "language":"Español, Inglés",
@@ -87,7 +87,7 @@
 {
     "id":"8",
     "name": "Valentina",
-    "photo": "/images/listing_teachers/profesores/Valentina.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Valentina.png",
     "number_of_classes": "30 ",
     "instrument":"Canto",
     "language":"Español",
@@ -100,7 +100,7 @@
 {   
     "id":"9",
     "name": "Roger",
-    "photo": "/images/listing_teachers/profesores/Roger.png",
+    "photo": "/Mila_Music/images/listing_teachers/profesores/Roger.png",
     "number_of_classes": "103 ",
     "instrument":"Piano",
     "language":"Español",
