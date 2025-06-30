@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import pianoIcon from "/images/_landing/instrumentos/piano.png";
-import guitarraIcon from "/images/_landing/instrumentos/guitarra.png";
-import cantoIcon from "/images/_landing/instrumentos/canto.png";
-import saxofonIcon from "/images/_landing/instrumentos/saxofón.png";
+import pianoIcon from "/images/landing/instrumentos/piano.png";
+import guitarraIcon from "/images/landing/instrumentos/guitarra.png";
+import cantoIcon from "/images/landing/instrumentos/canto.png";
+import saxofonIcon from "/images/landing/instrumentos/saxofón.png";
 function Instruments() {
   return (
     <section className="instruments-container_landing">

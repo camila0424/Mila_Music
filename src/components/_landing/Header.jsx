@@ -49,7 +49,7 @@ function Header() {
         <Link className="menu_ham_find" to="#">
           Inscribete como profe de Mila Music
         </Link>
-        <Link className="menu_ham_find" to="#">
+        <Link className="menu_ham_find" to="#how_it_works">
           ¿Cómo funciona?
         </Link>
         <Link className="menu_ham_find" to="#">
