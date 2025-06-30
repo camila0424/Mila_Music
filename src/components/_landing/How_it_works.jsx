@@ -1,4 +1,4 @@
-import okay from "../../images/_landing/beneficios/okay.png";
+import okay from "/images/_landing/beneficios/okay.png";
 
 function How_it_works() {
   return (

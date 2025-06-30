@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import facebook from "../../images/_landing/redes-sociales/facebook.png";
-import instagram from "../../images/_landing/redes-sociales/instagram.png";
-import twitter from "../../images/_landing/redes-sociales/twitter.png";
+import facebook from "/images/_landing/redes-sociales/facebook.png";
+import instagram from "/images/_landing/redes-sociales/instagram.png";
+import twitter from "/images/_landing/redes-sociales/twitter.png";
 
 function Footer() {
   return (
