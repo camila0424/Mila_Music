@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-     "deploy": "rm -rf docs ; npm run build ; mv dist docs ; git add docs ; git commit -m 'Update GH Pages version' ; git push",
+    "deploy": "rm -rf docs ; npm run build ; mv dist docs ; git add docs ; git commit -m 'Update GH Pages version' ; git push",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -28,5 +28,18 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "Aplicación para encontrar el profesor de música ideal para cada estudiante construida con JavaScript, React, Vite y Sass.",
+  "author": "Camila0424",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "vite",
+    "música",
+    "sass",
+    "router",
+    "Mila_Music",
+    "JavaScript",
+    "HTML"
+  ]
 }
