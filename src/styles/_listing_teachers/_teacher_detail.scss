@@ -1,17 +1,18 @@
 .detailTeacher{
     display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    flex-direction: column;
+    margin-top: 15px;
     font-family:"Arsenal SC", sans-serif;
-    margin-left: 10%;
-    margin-right: 30%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     gap: 2rem;
    
 }
 
 .detail_photo_teacher{
-   height: 100px;
-   margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
 }
 
 .detail_name_teacher{
@@ -25,14 +26,14 @@
     margin-bottom: 20px;
     text-align: justify;
     margin-right: 50px;
-    width: 600px;
+    width: 380px;
 }
 
 .detail_ad_description{
     margin-bottom: 20px; 
     text-align: justify;
     margin-right: 50px; 
-    width: 600px;
+    width: 380px;
     text-align: justify;
     margin-right: 50px;
 }
@@ -43,7 +44,7 @@
     font-size: bolder;
     font-weight: 600;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 1rem;
     
 }
 
@@ -52,20 +53,32 @@
     color: #521B58;
     margin-bottom: 10px;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 1rem;
     
 }
 
 .detail_class_description{
     margin-bottom: 60px;
-    width: 600px;
+    width: 380px;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 1rem;
     
 }
 
 
 //--------------------------boton volver detail
+
+.detail_buttons_container {
+  position: sticky;
+  bottom: 1rem; /* separación del borde inferior (justo arriba del footer) */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 100; /* para que quede encima */
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.1); /* sombra arriba para separarlo visualmente */
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+}
 
 
 .detail_return_btn{
@@ -78,8 +91,9 @@
     border-radius: 5px;
     text-align: center;
     position: fixed;
-    bottom: 60px;
-    left:50px;
+    top: 200px;
+    right:30px;
+    flex: 1;
     
 }
 
@@ -94,10 +108,65 @@
     border-radius: 5px;
     text-align: center;
     position: fixed;
-    bottom: 110px;
-    left:50px;
-   
+    top: 150px;
+    right:30px;
+    flex: 1;
 
 }
 
+.detail_return_btn:hover,
+.detail_contact_btn:hover {
+  background-color: #400f43;
+}
 
+
+@media (min-width: 768px) {
+  .detailTeacher {
+    flex-direction: row; /* imagen y textos lado a lado */
+    align-items: flex-start;
+  }
+
+  .detail_photo_teacher {
+    width: 250px;
+    height: 250px;
+    margin-top: 0;
+    margin-right: 2rem;
+    align-self: flex-start;
+  }
+
+  /* El segundo hijo directo (el div con textos) */
+  .detailTeacher > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column; /* textos en columna */
+    gap: 1rem;
+    flex: 1;
+  }
+
+  /* Opcional: ajustar anchura de algunos textos para que no se vean muy anchos */
+  .detail_ad_title,
+  .detail_about_teacher,
+  .detail_ad_description,
+  .detail_class_description {
+    width: 800px;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+
+   .detail_buttons_container {
+    position: sticky;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 100;
+    margin-top: 2rem;
+  }
+
+  .detail_contact_btn,
+  .detail_return_btn {
+    position: fixed;
+   
+   
+  }
+}

@@ -44,17 +44,19 @@ function TeacherDetail({ allTeachers }) {
         <p className="detail_class_description">{teacherToShow.class_desc}</p>
       </div>
 
-      <Link className="detail_return_btn" to="/">
-        Volver
-      </Link>
-      <Link
-        to={`/contact-teacher/${
-          teacherToShow.id
-        }/${teacherToShow.name.replaceAll(/[\W_]+/g, "-")}`}
-        className="detail_contact_btn"
-      >
-        Contactar
-      </Link>
+      <div className="detail_buttons_container">
+        <Link className="detail_return_btn" to="/teacher-list">
+          Volver
+        </Link>
+        <Link
+          to={`/contact-teacher/${
+            teacherToShow.id
+          }/${teacherToShow.name.replaceAll(/[\W_]+/g, "-")}`}
+          className="detail_contact_btn"
+        >
+          Contactar
+        </Link>
+      </div>
     </div>
   );
 }

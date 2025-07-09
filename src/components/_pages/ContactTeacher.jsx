@@ -71,7 +71,7 @@ function ContactTeacher({ allTeachers }) {
           </button>
 
           <div className="button_sticky_container">
-            <Link to="/" className="return_btn_contact_teacher">
+            <Link to="/teacher-list" className="return_btn_contact_teacher">
               Volver
             </Link>
           </div>
