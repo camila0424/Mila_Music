@@ -65,7 +65,7 @@ function Header() {
 
       <div className="logo">
         <Link to="/">
-          <img src={Logo} height="100px" alt="Esta es la imagen del logo" />
+          <img src={Logo} height="80px" alt="Esta es la imagen del logo" />
         </Link>
       </div>
       <div className="menu_general">

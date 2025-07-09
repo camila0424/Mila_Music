@@ -2,13 +2,13 @@ header {
     display: flex;
     justify-content: left;
     background-color: rgb(255, 255, 255);
-    font-size: 1em;
     position: relative;
     z-index: 100;
    }
 .logo{
     margin-top: 10px;
-    text-align: center;   
+    text-align: center;
+  
 }
 
 .menu_general {
@@ -18,7 +18,7 @@ header {
 
 
 .hamburguesa {
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
   color: #570e6a;
   padding: 10px;
@@ -45,7 +45,6 @@ header {
     color: rgb(87, 14, 106);
     margin-right: 10px;
     border: none;
-    margin-bottom: 5px;
     cursor: pointer;
     max-width: 100px;
     list-style: none;
