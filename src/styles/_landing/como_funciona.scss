@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
+    padding: 2rem 1rem;
     background-color: #fbddff;
   
 }
@@ -10,35 +10,37 @@
 .container-purple{
     text-align: center;
     background-color: #521B58;
-    padding: 15px 60px;
+    padding: 1rem;
     border-radius: 20px;
     margin-top: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .easy-tittle{
     color: white;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .easy{
     color: #e57ef1;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .how-it-works-list{
-    font-size: 30px;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 70px;
+    gap: 2.5rem;
     list-style: none;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 2rem;
+    padding: 0 1rem;
 }
 
 .how-it-works-list li {
@@ -61,21 +63,22 @@
 .tittle-functions{
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;   
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #4b0055;
     font-weight: bolder;
     text-align: left; 
     margin-bottom: 1rem;
+    margin-right: 1.8rem;
 
 }
 .description-functions{
     font-family: "Arsenal SC", sans-serif;
     font-size: 1.2rem;
     color: #880097;
-    font-weight: regular;
     text-align: left; 
     margin-top: 1rem; 
     margin-bottom: 0.5rem;
+    margin-right: 1.8rem;
 }
 
 .ok{

@@ -3,26 +3,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
- 
+   /*  padding: 0 0.5rem; */
+    width: 100%;
 }
 
 .tittle-instruments_landing{
     font-family: "Arsenal SC", sans-serif;
     font-weight: 700;   
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #4b0055;
     font-weight: bolder;
     text-align: center; 
     margin-top: 1rem; 
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    width: 380px;
 }
 
 .instruments-list_landing{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 2rem;
     list-style: none;
     padding: 0;
     margin: 0 auto;
@@ -31,41 +32,43 @@
 
 .instruments-list_landing li {
     display: flex;
-    align-items: center;
-    padding: 20px;
-    height: auto;
-    gap: 30px;
-     
+    flex-direction: column;
+    align-items: flex-start;
+    padding:5px;    
 }
 
 .icon-instrument_landing img{
-    width: 3rem;
+    width: 2.5rem;
     height: auto;
-    margin-right: 30px;
+    margin-right: 0;
 }
 
 .subject-instrument_landing{
     color: #521B58;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .teachers-instruments_landing{
     color: #bd83c4;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 .ver-mas_landing{
     background-color: #521B58;
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    padding: 15px 80px;
+    padding: 0.8rem 2rem;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 200px;
 }
 
 @media  (width > 768px){

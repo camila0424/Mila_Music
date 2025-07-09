@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     gap: 30px;
+    
 }
 
 .title-join{
@@ -14,7 +15,8 @@
     color: #4b0055;
     font-weight: bolder;
     margin-top: 2rem; 
-   
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
 }
 
 .paragraph-join{
@@ -22,6 +24,8 @@
     font-family: "Arsenal SC", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
 }
 
 .button-join{
@@ -29,9 +33,11 @@
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    padding: 15px 80px;
+    padding: 15px 50px;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 80px;  
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
 }
